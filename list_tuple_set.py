@@ -1,3 +1,9 @@
+empty_list = []
+empty_tuple = ()
+one_item_tuple = (1,)
+empty_set = set()
+empty_dict = {}
+
 list1 = ["Peter","Joe","Cleveland"]
 tuple1 = ("Peter","Joe","Cleveland") #immutable list
 set1 = {"Peter","Joe","Cleveland","Peter"}   #unordered, no-duplicated_values-allowed

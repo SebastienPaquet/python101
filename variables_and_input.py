@@ -17,7 +17,10 @@ name="Sébastien"
 name+=" est le codeur actuel"
 print(name)
 nom = "Carl"
+
+#string F-string
 print(f"Bonjour {nom}")
+print(type(f"Bonjour {nom}"))
 
 nom = "Lenny"
 salutation = "Bonjour {}"
