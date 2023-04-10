@@ -18,4 +18,7 @@ print(dict_movie_info.pop(key_to_remove,f"{key_to_remove} is a missing_key"))
 print(   dict_movie_info.pop(  key_to_remove,' '.join( str(i) for i in [key_to_remove, "is a missing_key"] )  )   )
 #print(dict_movie_info.pop(key_to_remove,[list(globals().items())[-1],"is a missing_key"]))
 
+student_grade = {"Rolf": 96, "Bob": 80, "Anne": 100}
+print(student_grade.items().mapping)
+
 #dictionary comprehension

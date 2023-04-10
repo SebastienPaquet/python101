@@ -29,3 +29,5 @@ doubled_map = map(double, sequence)             #using map #like in other langua
 
 #doubled = [(lambda x:x*2)(x) for x in sequence]    #ugly
 doubled_map = map(lambda x:x*2, sequence)
+
+#First-class functions : means functions are variables
